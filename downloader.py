@@ -1,3 +1,4 @@
+from download_links import*
 import multiprocessing as mp
 from bs4 import BeautifulSoup
 from multiprocessing.dummy import Pool
@@ -127,15 +128,12 @@ def main():
 	if args.all:
 		javatpoint_all()
 	elif args.url:
-		links = []
-		with open ("download_links.txt","r") as f:
-			links = f.read().split("\n")
-		for link in links:
+		for link in download_list:
 			if "https://www.javatpoint.com/" not in link:
 				print(link + " is not a valid javatpoint link!")
 				return
 		with Pool(processes = 2*mp.cpu_count()) as pool:
-			pool.map(javatpoint, links)
+			pool.map(javatpoint, download_list)
 
 	return
 
