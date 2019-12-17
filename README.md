@@ -4,7 +4,7 @@ Downloads full tutorial pdf from javatpoint, tutorialspoint and other websites
 ### First install depedencies:
 Make sure you have pip installed, and run
 
-```bash
+```terminal
 pip install --user -r requirements.txt
  ```
 ### Set up download links:
@@ -14,18 +14,18 @@ pip install --user -r requirements.txt
 ### Run the Downloader:
 * To download each links from `download_links.py` that you set earlier:
 
-	```bash
-	python downloader.py -u
+	```terminal
+	python main.py -u
 	```
 * To download all tutorials from Javatpoint:
 
-	```bash
-	python downloader.py -a
+	```terminal
+	python main.py -a
 	```
 * To check usages or help:
 
-	```bash
-	python downloader.py -h
+	```terminal
+	python main.py -h
 	```
 
 ## Future works
