@@ -1,6 +1,6 @@
 # tutorial-pdf-downloader
 
-[![Build Status](https://api.travis-ci.com/Gunjan933/tutorial-pdf-downloader.svg?branch=master)](https://travis-ci.com/Gunjan933/tutorial-pdf-downloader) [![Known Vulnerabilities](https://img.shields.io/badge/vulnerabilities%20-0-brightgreen.svg?style=flat)](https://snyk.io//test/github/Gunjan933/tutorial-pdf-downloader?targetFile=requirements.txt) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Gunjan933/tutorial-pdf-downloader/graphs/contributors) [![python >=3.5](https://img.shields.io/badge/pyhton->=3.5-blue.svg?style=flat)](#python-support)
+[![Build Status](https://api.travis-ci.com/Gunjan933/tutorial-pdf-downloader.svg?branch=master)](https://travis-ci.com/Gunjan933/tutorial-pdf-downloader) [![Known Vulnerabilities](https://img.shields.io/badge/vulnerabilities%20-0-brightgreen.svg?style=flat)](https://snyk.io//test/github/Gunjan933/tutorial-pdf-downloader?targetFile=requirements.txt) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Gunjan933/tutorial-pdf-downloader/graphs/contributors) [![python >=3.5](https://img.shields.io/badge/python->=3.5-blue.svg?style=flat)](#python-support)
 
 Downloads full tutorial PDFs from **[Javatpoint](https://www.javatpoint.com/)**, **[Tutorialspoint](https://www.tutorialspoint.com/)**  and other websites.
 
@@ -63,7 +63,7 @@ PDFs are saved in the same directory, in which you cloned the repository.
    |
    |
    |-- downloads
-   	   |
+       |
        |--artificial-intelligence
        |--mobile-computing
 ```
